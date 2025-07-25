@@ -26,7 +26,7 @@ def crawl(seed_url, page_limit=1000, token_limit=500):
             soup = BeautifulSoup(response.content, 'lxml')
             title = soup.title.string if soup.title else url
             body_text = soup.get_text(separator=' ', strip=True) if soup.body else ''
-            tokens = "".join(body_text.split()[:token_limit])
+            tokens = " ".join(body_text.split()[:token_limit])
 
             save_page(url, title, tokens)
             visited.add(url)
