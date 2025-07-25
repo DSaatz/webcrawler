@@ -21,7 +21,3 @@ At the moment, the project uses Beautiful Soup for parsing, but a custom crawlin
 ## Setup
 
 _TBD_
-
-## License
-
-This project is licensed under the terms specified in the repository.
