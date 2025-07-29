@@ -1,5 +1,5 @@
-from crawler import crawl
-from storage import init_db
+from webcrawler.crawler import crawl
+from webcrawler.storage import init_db
 
 PAGE_LIMIT = 1000
 TOKEN_LIMIT = 500
