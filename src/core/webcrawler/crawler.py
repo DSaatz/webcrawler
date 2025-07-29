@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from collections import deque
-from storage import save_page
+from webcrawler.storage import save_page
 import hashlib
 
 def hash_url(url):
