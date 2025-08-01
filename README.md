@@ -4,6 +4,13 @@ This project is a simple web crawler implemented in Python. It was inspired by [
 
 In contrast to their implementation, this version was created in Python with the goal of getting familiar with the Python ecosystem in preparation for future Python-heavy projects.  
 
+## Status / ROADMAP
+
+- Before I go and build yet another frontend (which I have done several times in the past). I might pursuit learning more about data analytics to implement these features
+in the logic first. Onwards it will be more useful to actually build the UI, when more features are available.
+
+- After that I will also look more into the deployment process.
+
 ## Goals & Focus
 
 The main focus of this project is to:  
